@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+:root {
+  color-scheme: light;
+  --background: #f6f2ea;
+  --foreground: #1d1a16;
+  --surface: #fffaf2;
+  --ink-muted: #5d554d;
+  --accent: #f45d48;
+  --accent-deep: #c63a28;
+  --ring: rgba(29, 26, 22, 0.12);
+  --font-body: "Space Grotesk", sans-serif;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-body);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-body), "Space Grotesk", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
