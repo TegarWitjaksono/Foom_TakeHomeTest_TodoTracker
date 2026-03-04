@@ -40,7 +40,7 @@ todo-tracker/
     └── tsconfig.json          # TypeScript configuration
 ```
 
-**GitHub Repository**: [Add your GitHub repository URL here]
+**GitHub Repository**: **https://github.com/TegarWitjaksono/Foom_TakeHomeTest_TodoTracker**
 - Contains both `backend/` and `frontend/` folders
 - Sequelize models in `backend/models/`
 - Sequelize migrations in `backend/migrations/`
